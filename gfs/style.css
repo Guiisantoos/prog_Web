@@ -1,0 +1,31 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+button {
+    margin: 20px;
+    border: none;
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+}
+
+.card p{
+    margin-left: 20px;
+}
+
+.card:hover{
+    transform:translateY(-10px)
+}
