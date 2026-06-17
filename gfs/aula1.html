@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pets da API com createElement</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <button onclick="loadPage()">Carregar</button>
-    <div class="container" id="cardsContainer"></div>
-    <script src="aula1.js"></script>
+  <header>
+    <h1>Pets para Adoção</h1>
+    <button id="btnCarregar">Carregar pets</button>
+  </header>
+
+  <main>
+    <div class="cards-container" id="cardsContainer">
+      <p class="mensagem">Clique no botão para buscar os pets da API.</p>
+    </div>
+  </main>
+
+  <script src="aula1.js"></script>
 </body>
 
 </html>
